@@ -6,7 +6,7 @@ import io  # For handling data as bytes
 
 # Step 2: Set up the web app title
 st.title("QR Code Generator")
-st.wite("しんちゃん、URLを入れてみて！")
+st.write("しんちゃん、URLを入れてみて！")
 # Step 3: Create a text input widget for the URL
 url = st.text_input("Enter URL Here")
 
