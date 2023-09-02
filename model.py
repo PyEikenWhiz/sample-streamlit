@@ -8,7 +8,7 @@ class QRCodeGenerator:
         qr.add_data(url)
         qr.make(fit=True)
         qr_image = qr.make_image(fill_color="black", back_color="white")
-        
+
         img_bytes = io.BytesIO()
         qr_image.save(img_bytes, format="PNG")
         return img_bytes.getvalue()
