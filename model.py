@@ -11,4 +11,5 @@ class QRCodeGenerator:
 
         img_bytes = io.BytesIO()
         qr_image.save(img_bytes, format="PNG")
+        
         return img_bytes.getvalue()

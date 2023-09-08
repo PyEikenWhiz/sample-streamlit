@@ -3,7 +3,7 @@ from model import QRCodeGenerator
 
 def main():
     st.title("QR Code Generator")
-    st.write("しんちゃん、URLを入れてみて2!!")
+    st.write("しんちゃん、URLを入れてみて3!!")
 
     url = st.text_input("Enter URL Here")
 
